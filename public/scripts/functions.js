@@ -1,7 +1,7 @@
 function submitComment(commentControl) {
     var comments = document.getElementsByName(commentControl)[0].value;
-    var subscriptionKey = "290e3e1d7e4646df9798f1e5a0caf4cf";
-    var url = "https://text-analytics-api-je.cognitiveservices.azure.com/text/analytics/v2.1/sentiment";
+    var subscriptionKey = "c74fa59d9b1e4c5ca4232ecba804c14a";
+    var url = "https://text-analytics-api-3.cognitiveservices.azure.com/text/analytics/v2.1/sentiment";
 
     var payload = '{ "documents": [ { "language": "en-US", "id": "1", "text": "' + comments + '" }]}';
 
